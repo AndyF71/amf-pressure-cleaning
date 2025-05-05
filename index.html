@@ -35,17 +35,30 @@
       border-radius: 8px;
       box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     }
-    footer {
-      background: #ff6600;
-      color: black;
-      text-align: center;
-      padding: 15px 0;
+    .gallery {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+      margin-top: 20px;
+    }
+    .gallery img {
+      width: 300px;
+      height: auto;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
     }
     .contact {
       background: #fff0db;
       padding: 20px;
       border-radius: 8px;
       text-align: center;
+    }
+    footer {
+      background: #ff6600;
+      color: black;
+      text-align: center;
+      padding: 15px 0;
     }
     a {
       color: black;
@@ -85,6 +98,15 @@
         <h3>Decking Cleaning</h3>
         <p>We carefully clean decking without damage, prepping it for staining or sealing.</p>
       </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Gallery</h2>
+    <div class="gallery">
+      <img src="https://via.placeholder.com/300x200?text=Before+Cleaning" alt="Before Cleaning">
+      <img src="https://via.placeholder.com/300x200?text=After+Cleaning" alt="After Cleaning">
+      <img src="https://via.placeholder.com/300x200?text=Decking+Clean" alt="Decking Clean">
     </div>
   </section>
 
